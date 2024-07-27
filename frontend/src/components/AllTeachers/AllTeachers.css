@@ -1,0 +1,95 @@
+.all-teachers {
+    align-self: stretch;
+    width: 100%;
+    padding: .5rem;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.all-teachers h2 {
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #00331f; 
+   /*  text-shadow: 1px 2px 3px grey; */
+}
+
+.detail{
+    transition: all .3s;
+}
+
+.detail a {
+    text-decoration: none;
+    color: black;
+}
+
+.detail a:hover {
+    text-decoration: underline;
+    color: blue !important;
+    cursor: pointer;
+}
+
+.all-teachers tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.all-teachers table,
+.all-teachers th, 
+.all-teachers td {
+   
+    border-collapse: collapse;
+}
+.each-teacher i {
+    font-weight: bold;
+    cursor: pointer;
+    color: gray;
+    transition: all .2s;
+}
+
+.each-teacher i:hover{
+    color: #db0e29;
+}
+
+.all-teachers table {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.all-teachers tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.all-teachers tr {
+    text-align: left;  
+    font-size: 18px; 
+}
+
+.all-teachers th {
+    background-color: rgb(73, 82, 119);
+    color: #fff;
+}
+
+.all-teachers th,
+.all-teachers td {
+    padding: 12px;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto 1rem;
+}
+
+.filter {
+    width: 300px !important;
+}
+
+.filter input {
+    padding: 12px !important;
+}
+
+.teachers-con {
+   width: 80%;
+}
