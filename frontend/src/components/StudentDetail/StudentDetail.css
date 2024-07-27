@@ -1,0 +1,119 @@
+.student-detail-container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 600px;
+    margin: 1rem auto ;
+   
+}
+
+.student-detail-container-inner {
+    box-shadow: 1px 2px 4px 1px rgb(0 0 0 / 20%); 
+    padding: 1rem;
+}
+
+.student-detail-container label {
+    text-transform: capitalize;
+    width: 30%;
+    margin-right: 1rem;
+}
+
+.spinner-con2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back-from-student-detail {
+    width: 200px;
+    background-color: #eee;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 0 3px grey;
+    border: none;
+    margin-bottom: 1rem;
+    transition: all .2s;
+}
+
+.back-from-student-detail i {
+    color: black;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.back-from-student-detail:hover {
+    background-color: #ddd;
+}
+
+.student-name {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.student-username {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.student-name h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.student-username h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+.set-mark {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    margin: 2rem auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    background-color:  #006bb3;
+    border: none;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.set-mark:hover {
+    background-color: #004d80;
+}
+
+.assign-year {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.student-username input {
+    border: none;
+    font-size: 18px;
+    background-color: #eee;
+    outline: none;
+    padding: 12px;
+    width: 200px;
+}
+
+.student-username input:focus {
+    outline: 2px solid grey;
+}
+
+@media(max-width: 637px) {
+    .student-detail-container {
+        width: 95%;
+    }
+}
+
+.save-btn {
+   margin-right: 5px;
+}

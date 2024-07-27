@@ -1,0 +1,183 @@
+.teacher-detail-container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1000px;
+    margin: 1rem auto ;
+   
+}
+
+.teacher-detail-container-inner {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 2px 4px 1px rgb(0 0 0 / 20%); 
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.teacher-detail-container label {
+    text-transform: capitalize;
+    width: 40%;
+    margin-right: 1rem;
+}
+
+.spinner-con2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back-from-teacher-detail {
+    width: 200px;
+    background-color: #eee;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 0 3px grey;
+    border: none;
+    margin-bottom: 1rem;
+    transition: all .2s;
+}
+
+.back-from-teacher-detail:hover {
+    background-color: #ddd;
+}
+
+.teacher-name {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.teacher-major {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.teacher-name h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.teacher-major h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+.select-container {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+.select-container select {
+    font-size: 20px;
+    outline: none;
+    width: 200px;
+    padding: 1rem;
+    border: none;
+    background-color: #eee;
+}
+
+.select-container select option {
+   border: none;
+   outline: none;
+   border-radius: 0;
+}
+
+.btn-assign {
+    text-align: center;
+    margin: 1rem;
+    width: 200px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #4d88ff;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.btn-assign:hover {
+    background-color: #3b74e6;
+}
+
+.assign-year {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+.assign-year input {
+    border: none;
+    font-size: 18px;
+    background-color: #eee;
+    outline: none;
+    padding: 12px;
+    width: 200px;
+}
+
+.assign-year input:focus,
+.homeroom-teacher input:focus {
+    outline: 2px solid grey;
+}
+
+@media(max-width: 637px) {
+    .teacher-detail-container {
+        width: 95%;
+    }
+}
+
+.homeroom-teacher {
+    padding: 1rem;
+    width: 50%;
+   /*  display: flex; */
+    font-size: 19px;
+}
+
+.homeroom-teacher input {
+    border: none;
+    font-size: 18px;
+    background-color: #eee;
+    outline: none;
+    padding: 12px;
+    width: 200px;
+}
+
+.homeroom-teacher label {
+    text-transform: capitalize;
+    width: 50%;
+    margin-right: 1rem;
+}
+
+.left-container {
+    border-right: 2px solid #eee;
+    padding: 1rem;
+    width: 50%;
+}
+
+.homeroom-teacher button {
+    text-align: center;
+    margin: 2rem;
+    width: 200px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #096092;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.homeroom-teacher button:hover {
+    background-color: #0f7bb9;
+}
