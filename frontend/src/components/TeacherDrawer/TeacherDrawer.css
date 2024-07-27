@@ -1,0 +1,93 @@
+.teacher-sidedrawer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 9;
+    display: inline-block; 
+    background-color: rgb(25, 28, 41);
+    width: 20%;
+    height: 92vh;
+}
+
+.teacher-sidedrawer h3 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 3px solid #313644;
+}
+
+.main-list-container {
+   
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+
+}
+
+.main-lists {
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    margin-bottom: .5rem;
+    transition: all .2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+.main-lists:hover {
+    background-color: rgb(23, 32, 48); 
+}
+
+/* @media(max-width: 751px) {
+    .teacher-sidedrawer {
+        background: none;
+        width: 100%;
+        height: auto;
+       
+    }
+    .teacher-sidedrawer ul {
+        display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+    }
+
+    .teacher-sidedrawer ul li {
+        margin-right: 5px;
+        font-size: 17px;
+    }
+} */
+
+.teacher-icons {
+    width: 25px
+}
+
+.my-classes {
+    transition: all .2s;
+    list-style: none;
+    color: #fff;
+}
+
+.my-classes li {
+    font-size: 17px;
+    margin: .2rem;
+    cursor: pointer;
+    padding: .2rem 0;
+    transition: all .2s;
+} 
+
+.my-classes li:hover {
+    color: rgb(152, 174, 212);
+    text-decoration: underline;
+}
+
+
+.active-grade {
+    background: transparent;
+    color: rgb(152, 174, 212);
+    text-decoration: underline;
+}

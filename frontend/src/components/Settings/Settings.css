@@ -1,0 +1,111 @@
+.semister-container {
+    margin: 3rem auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem;
+    box-shadow: 1px 2px 4px 1px rgb(0 0 0 / 20%); 
+}
+
+.semister-container label {
+    margin-right: 1rem;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+}
+
+.semister-container select {
+    outline: none;
+    width: 200px;
+    background-color: #eee;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.btn-update-container {
+   padding: 1rem 1rem 2rem 1rem;
+}
+
+.btn-anchor {
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    width: 150px;
+    background-color: #05619e;
+    margin-left: 3rem;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px;
+    transition: all .2s;
+    letter-spacing: 2px;
+    transition: all .2s;
+    position: relative;
+    overflow: hidden;
+    
+} 
+
+/*  .btn-update-container button:hover {
+    background-color: #3f75e0;
+}
+  */
+.change-sem-container {
+    margin: 1rem 0 3rem 0;
+}
+
+@keyframes floatButton{
+    0% {
+        background-color: rgb(61, 60, 60);
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+.btn-update-container span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    background-color: #89adf5;
+    pointer-events: none;
+    animation: animate .5s linear infinite;
+}
+
+
+@keyframes animate {
+    0% {
+        width: 0;
+        opacity: .5;
+        height: 0;
+    }
+
+    100% {
+        width: 400px;
+        height: 400px;
+        opacity: 0;
+    }
+}
+
+.reset_assign-teachers {
+    padding: 1rem;
+    border-top: 1px solid rgb(235, 224, 224);
+}
+
+.reset_assign-teachers button {
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    width: 150px;
+    background-color: #05619e;
+    margin-left: 10rem;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px;
+    transition: all .2s;
+    letter-spacing: 2px;
+    transition: all .2s;
+    position: relative;
+    overflow: hidden;
+}
