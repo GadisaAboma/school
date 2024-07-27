@@ -1,0 +1,44 @@
+.list{
+    display: flex;
+}
+.menu-container:hover{
+  border:  solid black;
+  border-radius: 50%;
+  text-align: center;
+
+}
+.list-item{
+    padding: 10px;
+    margin: 15px;
+    list-style: none;
+    flex: 0.5;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+header{
+    background-color: darkslateblue;
+    width: 99%;
+    margin: auto;
+}
+.list-item:hover{
+    border: 1px solid gray;
+    background-color: steelblue;
+}
+.list-item{
+    color:white;
+    /* background-color: darkblue; */
+    text-align: center;
+}
+body{
+    background-color: blueviolet;
+}
+.menu{
+    background-color: black;
+     height: 5px;
+     width: 40px;
+     margin: 5px;
+}
+.menu-container{
+    cursor: pointer;
+    margin-top: 14px;
+}
