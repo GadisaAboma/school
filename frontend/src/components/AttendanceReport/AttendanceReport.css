@@ -1,0 +1,74 @@
+.attendance__report-container {
+    width: 100%;
+}
+
+.print__attendance-report {
+    width: 80%;
+}
+
+.attendance__report-container div {
+    width: 95%;
+    margin: 1rem auto;
+    padding: 1rem;
+
+}
+
+.attendance__report-container div table {
+    font-weight: 500;
+    font-size: 17px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.attendance__report-container div table tr {
+    padding: .5rem !important;
+}
+
+
+.attendance__report-container div table th {
+   background-color: #eee;
+}
+
+
+
+.attendance__report-container div table tr,
+.attendance__report-container div table,
+.attendance__report-container div table td,
+.attendance__report-container div table th {
+    padding: .5rem;
+    border: 1px solid #ddd;
+}
+
+.attendance__report-container div table td {
+  text-transform: capitalize;
+}
+
+.print_attendance-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.print__attendance-report button {
+    text-align: center;
+    margin: 1rem auto;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color:  #006bb3;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: all .2s;
+    position: relative;
+    z-index: 9;
+}
+
+.print__attendance-report button:hover {
+   background-color: #0c87d8;
+}
