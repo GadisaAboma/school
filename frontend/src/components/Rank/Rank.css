@@ -1,0 +1,37 @@
+.rank-container {
+    width: 80%;
+    align-self: stretch;
+}
+
+.rank-container table {
+    border: 1px solid #ccc;
+    width: 95%;
+    text-align: left;
+    margin: 2rem auto;
+}
+
+.rank-container th {
+    border: 1px solid rgb(73, 82, 119);
+    background-color: rgb(73, 82, 119);
+    color: #fff;
+}
+
+.rank-inner tr {
+    border-bottom: 1px solid #eee;
+  }
+
+.rank-container th,
+.rank-container td,
+.rank-container table {
+    border-collapse: collapse;
+}
+
+.rank-container th,
+.rank-container td {
+    padding: 12px;
+}
+
+.rank-container input {
+    width: 50px;
+    font-size: 17px;
+}

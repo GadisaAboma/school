@@ -1,0 +1,174 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     /*  background-color: #1d2027; */
+     /* background-color: #006bb3; */
+       background-color: #00264d; 
+     /* background-color: #004d80; */
+    padding: 1.5rem;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    color: #eeeeee;
+}
+
+.name-container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all .2s;
+    font-weight: 600;
+}
+
+.name-container i {
+    font-size: 25px;
+    margin-right: .5rem;
+}
+
+.name-container a:hover {
+    color: #b1bddb;
+}
+
+.nav-items {
+    margin-right: 3rem;
+}
+
+.admin-user {
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    transition: all .2s;
+}
+
+.admin-user ul {
+    position: absolute;
+    top: 2rem;
+    width: 210px;
+    left: -3rem;
+    color: black;
+    background-color: #fff;
+  /*   border: 2px solid #ddd; */
+    z-index: 11;
+  
+  }
+  .admin-option  {
+    padding: 1rem;
+  }
+
+  .logged-user-menus {
+    display: flex;
+}
+
+.logged-user-menus li {
+    margin-right: 2rem;
+}
+
+.admin-user ul li {
+    width: 100%;
+    padding: 5px;
+}
+
+.nav-items li {
+    cursor: pointer;
+    list-style: none;
+    transition: all .2s;
+}
+
+.admin-user:hover {
+    color: #b1bddb;
+}
+
+.logged-user {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.font-awesome-user {
+    transition: all .2s;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+
+.nav-items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eee;
+}
+
+.signin:hover {
+    color: #616d8d;
+} 
+
+.signin-link {
+    transition: all .4s;
+}
+
+.signin:hover .signin-link {
+    color: #616d8d;
+} 
+
+.admin-option {
+    padding: .7rem !important;
+    font-size: 17px;
+    font-weight: 530;
+    transition: all .2s;
+}
+
+ .admin-option:hover {
+    background-color: rgb(37, 46, 63)
+} 
+
+
+.register-student {
+    text-transform: lowercase;
+    color: black;
+}
+
+.user {
+    position: relative;
+    font-size: 18px;
+    transition: all .2s;
+}
+
+.user:hover {
+    color: #bbb;
+}
+
+.student-options {
+    z-index: 15;
+    padding: 0;
+    width: 140px;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    background-color: #eee;
+    color: #222;
+}
+
+.teacher-options {
+    padding: .7rem;
+    background-color: #eee;
+    color: #222;
+    position: absolute;
+    width: 250px;
+    left: -1.5rem;
+    top: 1.5rem;
+    z-index: 15;
+}
+
+
+.adminOptions, 
+.student-options,
+.teacher-options {
+    padding: 0;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(22, 22, 36) !important;
+    color: #ccc !important;
+}
+
+.student-options li,
+.teacher-options li {
+    padding: 1rem;
+}
+
+
