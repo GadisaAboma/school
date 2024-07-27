@@ -1,0 +1,101 @@
+
+
+.school-information-container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1rem auto;
+    width: 80%;
+
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.school-staff p,
+.school-background p {
+   text-align: justify;
+    line-height: 2rem;
+    padding: 9px;
+    border-top: 2px solid #eee;
+    text-indent: 0px;
+    font-size: 20px;
+    word-spacing: 3px;
+    font-family: sans-serif;
+    word-wrap: normal;
+}
+
+.mission-vision-goal {
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+   /*  flex-wrap: wrap; */
+    text-align: center;
+}
+
+.mission-vision-goal div:not(:last-child) {
+    margin-right: 1rem;
+}
+
+@media(max-width: 866px) {
+    .mission-vision-goal {
+        flex-wrap: wrap;
+    }
+}
+
+.mission-vision-goal h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.school-background {
+    text-align: center;
+}
+
+.school-information-container h1 {
+font-weight: normal;
+}
+
+.staff-image {
+    display: flex;
+    
+}
+
+.staff-image img {
+    width: 600px;
+}
+
+.staff-image div {
+    margin: 1rem;
+}
+
+@media(max-width: 1246px) {
+    .staff-image {
+        flex-wrap: wrap;
+    }
+
+    .staff-image img {
+        width: 100%;
+    }
+}
+
+.school-information-container h1{
+    font-weight: bold;
+    
+    /* text-shadow: 1px 2px 3px grey; */
+    text-transform: uppercase;
+    display: inline-block;
+  /*   background-image: linear-gradient(to right, #7ed56f, #28b485); */
+   background-image: linear-gradient(to right, #8c9291, #474948); 
+    background-clip: text; 
+    color: transparent;
+    transition: all .2s;
+}
+
+.school-information-container h1:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,18 @@
+.admin-body {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.spinner-con {
+   position: absolute;
+   top: 40%;
+   left: 60%;
+   transform: translate(-50%, -50%);
+} 
+
+@media(max-width: 751px) {
+    .admin-body{
+        flex-direction: column;
+    }
+}
