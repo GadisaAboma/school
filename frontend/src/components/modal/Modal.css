@@ -1,0 +1,46 @@
+.modal-container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #eee;
+    width: 400px;
+    padding: 1rem;
+    transition: all .2s;
+   z-index: 11;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-container p {
+    font-size: 20px;
+}
+
+.modal-container button {
+    color: white;
+    float: right;
+    width: 100px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+  
+    font-size: 17px;
+    transition: all .2s;
+    margin: 1rem;
+}
+
+.btn-continue {
+   /*  background-image: linear-gradient(to right, rgb(153, 9, 29), rgb(173, 16, 76)); */
+   background-color:   #5c5c8a;
+}
+
+.btn-continue:hover {
+    transform: scale(1.1);
+}
+.btn-cancel:hover {
+    transform: scale(1.1);
+}
+
+.btn-cancel {
+    background-image: linear-gradient(to right, rgb(13, 141, 103), rgb(6, 107, 68));
+}
+

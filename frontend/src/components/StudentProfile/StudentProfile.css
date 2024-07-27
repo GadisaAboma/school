@@ -1,0 +1,35 @@
+.student__profile-container {
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+}
+
+.student__profile {
+    position: relative;
+    box-sizing: border-box;
+    width: 700px;
+    margin: 5rem auto;
+    padding: 2rem 0 0 0;
+    box-shadow: 1px 2px 4px 1px rgb(0 0 0 / 20%); 
+}
+
+.student__profile div {
+    font-weight: bold;
+    border-bottom: 2px solid #eee;
+    display: flex;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+.names {
+    width: 300px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 70px;
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
